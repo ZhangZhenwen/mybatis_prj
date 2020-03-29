@@ -20,6 +20,7 @@
 
     <!-- 指定映射配置文件的位置 -->
     <mappers>
-        <mapper resource="com/zhenwen/dao/IUserDao.xml" />
+<!--        <mapper resource="com/zhenwen/dao/IUserDao.xml" />-->
+        <mapper class="com.zhenwen.dao.IUserDao"/>
     </mappers>
 </configuration>

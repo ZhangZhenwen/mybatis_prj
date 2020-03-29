@@ -1,6 +1,7 @@
 package com.zhenwen.dao;
 
 import com.zhenwen.domain.User;
+import com.zhenwen.mybatis.annotations.Select;
 
 import java.util.List;
 
@@ -18,5 +19,6 @@ public interface IUserDao {
      * 查找所有信息
      * @return User对象
      */
+    @Select("select * from user")
     List<User> findAll();
 }
