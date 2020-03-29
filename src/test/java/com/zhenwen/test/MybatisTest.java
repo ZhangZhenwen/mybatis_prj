@@ -2,10 +2,11 @@ package com.zhenwen.test;
 
 import com.zhenwen.dao.IUserDao;
 import com.zhenwen.domain.User;
-import org.apache.ibatis.io.Resources;
-import org.apache.ibatis.session.SqlSession;
-import org.apache.ibatis.session.SqlSessionFactory;
-import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import com.zhenwen.mybatis.io.Resources;
+import com.zhenwen.mybatis.sqlsession.SqlSession;
+import com.zhenwen.mybatis.sqlsession.SqlSessionFactory;
+import com.zhenwen.mybatis.sqlsession.SqlSessionFactoryBuilder;
+
 
 import java.io.InputStream;
 import java.util.List;
