@@ -1,6 +1,5 @@
 package com.zhenwen.dao;
 
-import com.zhenwen.domain.QueryVo;
 import com.zhenwen.domain.User;
 
 import java.util.List;
@@ -65,14 +64,6 @@ public interface UserDao {
      * @return 总数
      */
     int findTotal();
-
-    /**
-     * 根据queryVo中的查询条件查询结果
-     *
-     * @param vo 查询类
-     * @return 用户对象
-     */
-    List<User> findUserByVo(QueryVo vo);
 }
 
 

@@ -1,7 +1,6 @@
 package com.zhenwen.test;
 
 import com.zhenwen.dao.UserDao;
-import com.zhenwen.domain.QueryVo;
 import com.zhenwen.domain.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -151,22 +150,5 @@ public class MybatisTest {
         int count = userDao.findTotal();
         System.out.println(count);
 
-    }
-
-    /**
-     * 测试查询 通过查询类查询
-     */
-    @Test
-    public void testFindUserByVo() {
-        QueryVo vo = new QueryVo();
-        User user = new User();
-        user.setUsername("%王%");
-        vo.setUser(user);
-
-        List<User> users = userDao.findUserByVo(vo);
-
-        for (User u : users) {
-            System.out.println(u);
-        }
     }
 }

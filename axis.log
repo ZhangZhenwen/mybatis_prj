@@ -428,3 +428,17 @@
 2020-03-30 16:27:28,795 775    [%15. 15t] DEBUG ansaction.jdbc.JdbcTransaction  -Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5733f295]
 2020-03-30 16:27:28,795 775    [%15. 15t] DEBUG ansaction.jdbc.JdbcTransaction  -Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5733f295]
 2020-03-30 16:27:28,795 775    [%15. 15t] DEBUG source.pooled.PooledDataSource  -Returned connection 1463022229 to pool.
+2020-03-30 17:00:55,937 0      [%15. 15t] DEBUG ache.ibatis.logging.LogFactory  -Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-03-30 17:00:55,970 33     [%15. 15t] DEBUG source.pooled.PooledDataSource  -PooledDataSource forcefully closed/removed all connections.
+2020-03-30 17:00:55,970 33     [%15. 15t] DEBUG source.pooled.PooledDataSource  -PooledDataSource forcefully closed/removed all connections.
+2020-03-30 17:00:55,970 33     [%15. 15t] DEBUG source.pooled.PooledDataSource  -PooledDataSource forcefully closed/removed all connections.
+2020-03-30 17:00:55,970 33     [%15. 15t] DEBUG source.pooled.PooledDataSource  -PooledDataSource forcefully closed/removed all connections.
+2020-03-30 17:00:56,066 129    [%15. 15t] DEBUG ansaction.jdbc.JdbcTransaction  -Opening JDBC Connection
+2020-03-30 17:00:56,572 635    [%15. 15t] DEBUG source.pooled.PooledDataSource  -Created connection 1431556341.
+2020-03-30 17:00:56,572 635    [%15. 15t] DEBUG ansaction.jdbc.JdbcTransaction  -Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5553d0f5]
+2020-03-30 17:00:56,576 639    [%15. 15t] DEBUG om.zhenwen.dao.UserDao.findAll  -==>  Preparing: select * from user 
+2020-03-30 17:00:56,621 684    [%15. 15t] DEBUG om.zhenwen.dao.UserDao.findAll  -==> Parameters: 
+2020-03-30 17:00:56,660 723    [%15. 15t] DEBUG om.zhenwen.dao.UserDao.findAll  -<==      Total: 8
+2020-03-30 17:00:56,674 737    [%15. 15t] DEBUG ansaction.jdbc.JdbcTransaction  -Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5553d0f5]
+2020-03-30 17:00:56,675 738    [%15. 15t] DEBUG ansaction.jdbc.JdbcTransaction  -Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@5553d0f5]
+2020-03-30 17:00:56,675 738    [%15. 15t] DEBUG source.pooled.PooledDataSource  -Returned connection 1431556341 to pool.
